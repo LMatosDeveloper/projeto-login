@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores
+#7C7885
+#D1D0D6
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+}
+
+section#login > div#imagem {
+    background: url(../imagens/fundo-login.jpg) center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
