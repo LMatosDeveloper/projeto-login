@@ -48,8 +48,16 @@ section#login > div#imagem {
     display: block;
 }
 
-section#login > div#formulario {
-    font-weight: bolder;
+section#login > div#formulario {  
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+div#formulario p {
+    font-size: 0.8em;
 }
