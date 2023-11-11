@@ -12,13 +12,14 @@ Extra large screens, TV – 1201px, and more.
 
 
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){ /* CONFIGURAÇÃO PARA TABLETS*/
 
     body {
         background-image: linear-gradient(to top, white, #8D94A7 );
     }
     section#login {
         width: 80vw;
+        height: 280px;
         
         }
 
@@ -33,15 +34,23 @@ Extra large screens, TV – 1201px, and more.
         width: 70%;
     }
 
+    form > input[type=submit] {
+        background-color: #8D94A7;
+    }
+    form > a.botao {
+        background-color: #9da0a8;
+    }
+
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {  /*CONFIGURAÇÃO PARA DESKTOPS*/
 
     body {
         background-image: linear-gradient(to top, white, #8D94A7 );
     }
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -54,5 +63,12 @@ Extra large screens, TV – 1201px, and more.
         float: left;
         width: 50%;
 
+    }
+
+    form > input[type=submit] {
+        background-color: #8D94A7;
+    }
+    form > a.botao {
+        background-color: #9da0a8;
     }
 }
